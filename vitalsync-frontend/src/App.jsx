@@ -8,6 +8,7 @@ import UserDashboard from "./pages/UserDashboard";
 import AdminDashboard from "./pages/AdminDashboard";
 import GoalSetting from "./pages/GoalSetting";
 import Profile from "./pages/Profile";
+import Notifications from "./components/Notifications"; // Important
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/goals" element={<GoalSetting />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/notifications" element={<Notifications />} />
       </Routes>
     </div>
   );
