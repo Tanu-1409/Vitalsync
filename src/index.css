@@ -1,0 +1,40 @@
+/* ✅ Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ Your Custom Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f5f9; /* Light grayish blue */
+  color: #1e293b; /* Slate-800 text */
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+}

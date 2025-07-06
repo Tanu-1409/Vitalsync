@@ -1,0 +1,64 @@
+.dashboard-container {
+  padding: 2rem;
+  text-align: center;
+  background: #f1f5f9;
+  min-height: 100vh;
+}
+
+.dashboard-container h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #0f172a;
+}
+
+.metrics-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.metric-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  width: 180px;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.metric-card:hover {
+  transform: translateY(-8px);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #0ea5e9;
+}
+
+.metric-card p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #334155;
+}
+
+.metric-card h3 {
+  font-size: 1.5rem;
+  color: #0f172a;
+}
+
+/* Gradient Themes */
+.metric-card.steps {
+  background: linear-gradient(to bottom right, #e0f7fa, #b2ebf2);
+}
+.metric-card.sleep {
+  background: linear-gradient(to bottom right, #ede7f6, #d1c4e9);
+}
+.metric-card.hydration {
+  background: linear-gradient(to bottom right, #e1f5fe, #b3e5fc);
+}
+.metric-card.heart {
+  background: linear-gradient(to bottom right, #fce4ec, #f8bbd0);
+}
