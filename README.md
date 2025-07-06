@@ -1,17 +1,26 @@
-<<<<<<< HEAD
-# React + Vite
+# VitalSync
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌿 Your Wellness, Connected — A Health Tracking App built using MERN Stack.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📊 Track your *steps, heart rate, sleep & hydration*
+- 🎯 Set personalized *goals* with reminders
+- 📈 See beautiful *data visualizations*
+- 🔐 Secure *authentication with JWT*
+- 👩‍⚕ Sync with *Fitbit, Google Fit, Apple Health*
+- 📬 Get in-app & email *notifications*
+- 🛠 Admin Dashboard for system overview
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Vitalsync
-Health tracking app
->>>>>>> 54f9c9ae8785890c72365cb58127aa8696a9218c
+- *Frontend*: React + Vite + Bootstrap
+- *Backend*: Node.js, Express.js
+- *Database*: MongoDB (with Atlas)
+- *Auth*: JWT & Role-Based Access
+- *Charts*: Recharts / D3.js
+- *Email*: NodeMailer / SendGrid
+
+## 🖼 Screenshots
+
+(Add screenshots later of your home, login, goals, etc.)
