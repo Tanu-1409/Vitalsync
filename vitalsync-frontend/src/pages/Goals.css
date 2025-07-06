@@ -1,0 +1,46 @@
+.goals-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: linear-gradient(135deg, #e1f5fe, #81d4fa);
+}
+
+.goals-form {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  text-align: center;
+}
+
+.goals-form h2 {
+  color: #0277bd;
+}
+
+.goals-form input {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.goals-form button {
+  background: #0277bd;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.goals-form button:hover {
+  background: #01579b;
+}
